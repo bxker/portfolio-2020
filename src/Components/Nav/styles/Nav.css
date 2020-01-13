@@ -12,6 +12,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: white;
 }
 
 .nav-container section {
@@ -34,6 +35,7 @@
   font-size: 1.05rem;
   border: none;
   border-radius: 5px;
+  background-color: white;
   cursor: pointer;
 }
 
