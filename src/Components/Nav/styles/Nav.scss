@@ -2,8 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     height: 10vh;
     width: 100vw;
-    background: #18181B;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +26,6 @@
 }
 
 .nav-container section button:hover{
-    border: 1px solid white;
-    color: white;
-    background: #18181B;
+    border: 1px solid black;
+    color: black;
 }

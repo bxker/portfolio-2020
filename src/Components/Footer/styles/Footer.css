@@ -1,8 +1,6 @@
-.nav-container {
-  font-family: 'Montserrat', sans-serif;
+.footer-main {
   height: 10vh;
   width: 100vw;
-  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,7 +12,8 @@
           align-items: center;
 }
 
-.nav-container section {
+.footer-container {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,21 +23,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
-  width: 50%;
 }
 
-.nav-container section button {
-  height: 30px;
-  width: 80px;
-  font-size: 1.05rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.footer-img-1 {
+  width: 40px;
 }
 
-.nav-container section button:hover {
-  border: 1px solid black;
-  color: black;
+.footer-img-2 {
+  width: 35px;
 }
-/*# sourceMappingURL=Nav.css.map */
+/*# sourceMappingURL=Footer.css.map */
