@@ -10,6 +10,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .landing-container {
@@ -27,9 +28,9 @@
 }
 
 .landing-section-1 {
-  height: 65%;
+  height: 75%;
   width: 50%;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,20 +44,20 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  letter-spacing: 1px;
   background: white;
+  border-radius: 5px;
 }
 
 .landing-section-1 p {
   text-align: center;
   line-height: 150%;
-  margin: 10px;
+  margin: 30px;
   background: white;
 }
 
 .landing-logo {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 

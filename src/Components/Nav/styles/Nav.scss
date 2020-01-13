@@ -1,12 +1,12 @@
 .nav-container{
     font-family: 'Montserrat', sans-serif;
-    height: 10vh;
+    height: 5vh;
     width: 100vw;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #26262B;
+    background: #2BAAE2;
 }
 
 .nav-container section{
@@ -25,10 +25,11 @@
     border-radius: 5px;
     background-color: white;
     cursor: pointer;
+    outline: none;
 }
 
 .nav-container section button:hover{
     border: 1px solid white;
-    background: #26262B;
+    background: #2BAAE2;
     color: white;
 }
