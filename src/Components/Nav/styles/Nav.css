@@ -12,7 +12,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: white;
+  background: #26262B;
 }
 
 .nav-container section {
@@ -40,7 +40,8 @@
 }
 
 .nav-container section button:hover {
-  border: 1px solid black;
-  color: black;
+  border: 1px solid white;
+  background: #26262B;
+  color: white;
 }
 /*# sourceMappingURL=Nav.css.map */
