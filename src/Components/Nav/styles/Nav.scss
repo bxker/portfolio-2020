@@ -4,9 +4,20 @@
     width: 100vw;
     color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background: #2BAAE2;
+}
+
+.nav-container h1{
+    margin: 10vw;
+    font-size: large;
+    .first_name{
+        border-bottom: 2px solid red;
+    }
+    .last_name{
+        border-bottom: 2px solid #2BAAE2
+    }
+
 }
 
 .nav-container section{
@@ -17,19 +28,17 @@
     width: 50%;
 }
 
-.nav-container section button{
+.nav-container section span{
     height: 30px;
     width: 80px;
     font-size: 1.05rem;
     border: none;
-    border-radius: 5px;
     background-color: white;
+    color: black;
     cursor: pointer;
     outline: none;
 }
 
-.nav-container section button:hover{
-    border: 1px solid white;
-    background: #2BAAE2;
-    color: white;
+.nav-container section span:hover{
+    border-bottom: 2px solid red;
 }

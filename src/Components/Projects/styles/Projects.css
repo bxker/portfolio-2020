@@ -1,4 +1,59 @@
-.project-main img {
+.projects-main {
+  width: 100vw;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.switch-container, .trakd-container {
+  background: white;
+  width: 40vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 0px 4px 0px #000000;
+  box-shadow: 0px 0px 4px 0px #000000;
+}
+
+.switch-container button, .trakd-container button {
+  width: 90px;
+  height: 30px;
+  background: #2BAAE2;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.switch-container button:hover, .trakd-container button:hover {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+
+.switch img {
   width: 200px;
 }
 /*# sourceMappingURL=Projects.css.map */
