@@ -1,12 +1,13 @@
 import React from 'react'
 import projects from '../../../data/projects'
 import {Carousel} from 'react-responsive-carousel'
+import './styles/Project.css'
 // import { Link } from 'react-router-dom'
 
 
 export default function Project(props) {
     return (
-        <div>
+        <div className="project-main">
             {props.match.params.project_name === 'Switch' ?
             <div>
                 <h1>{projects[0].project_name}</h1>
