@@ -39,6 +39,19 @@
     outline: none;
 }
 
+
+#about-selected{
+    border-bottom: 2px solid red;
+}
+
+#projects-selected{
+    border-bottom: 2px solid red;
+}
+
+#contact-selected{
+    border-bottom: 2px solid red;
+}
+
 .nav-container section span:hover{
     border-bottom: 2px solid red;
 }

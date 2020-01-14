@@ -34,6 +34,7 @@
           align-items: center;
   -webkit-box-shadow: 0px 0px 4px 0px #000000;
   box-shadow: 0px 0px 4px 0px #000000;
+  border-radius: 5px;
 }
 
 .switch-container button, .trakd-container button {
@@ -51,6 +52,14 @@
   border: 1px solid black;
   background: white;
   color: black;
+}
+
+.switch-carousel {
+  max-width: 90%;
+}
+
+.trakd-carousel {
+  max-width: 90%;
 }
 
 .switch img {
