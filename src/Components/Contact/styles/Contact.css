@@ -66,6 +66,7 @@
 
 .social-links h1 {
   font-size: 3rem;
+  text-decoration: underline;
 }
 
 .social-links a {
@@ -97,6 +98,7 @@
 
 .contact-email h1 {
   font-size: 3rem;
+  text-decoration: underline;
 }
 
 .contact-email button {
