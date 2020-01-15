@@ -5,6 +5,7 @@ import './styles/Project.css'
 
 
 export default function Project(props) {
+    console.log(props)
     return (
         <div className="project-main">
             {props.match.params.project_name === 'Switch' ?

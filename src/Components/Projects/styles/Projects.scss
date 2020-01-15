@@ -4,15 +4,16 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
+    // align-items: center;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
 }
 
 
 .switch-container{
     background: white;
-    width: 40vw;
-    height: 60vh;
+    width: 400px;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
