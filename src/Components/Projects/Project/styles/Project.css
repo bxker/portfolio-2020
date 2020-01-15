@@ -16,6 +16,7 @@
 .project-main h1 {
   font-size: 1.5rem;
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .project-container {
@@ -37,21 +38,23 @@
 }
 
 .project-container .project-description {
-  width: 70%;
-  height: 20vh;
+  width: 60vw;
+  max-height: 500px;
+  padding: 10px;
   text-align: left;
   line-height: 150%;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
 }
 
 #project-images {
-  width: 60vw;
+  max-width: 400px;
 }
 
 .post-buttons {
   width: 40%;
-  height: 100px;
+  height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

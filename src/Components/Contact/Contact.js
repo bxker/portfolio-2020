@@ -1,9 +1,12 @@
 import React from 'react'
+import './styles/Contact.css'
 
 export default function Contact() {
     return (
-        <div>
-            <h1>Contact Component</h1>
+        <div className="contact-main">
+            <section className="contact-container">
+
+            </section>
         </div>
     )
 }

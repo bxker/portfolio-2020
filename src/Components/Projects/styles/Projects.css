@@ -10,13 +10,13 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 30px;
+  overflow: scroll;
 }
 
 .switch-container, .trakd-container {
   background: white;
   width: 400px;
-  height: 40vh;
+  height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,6 +33,7 @@
   -webkit-box-shadow: 0px 0px 4px 0px #000000;
   box-shadow: 0px 0px 4px 0px #000000;
   border-radius: 5px;
+  margin: 20px;
 }
 
 .switch-container button, .trakd-container button {
