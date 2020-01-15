@@ -10,6 +10,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-container {
@@ -18,5 +19,101 @@
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-links {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-links div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-links h1 {
+  font-size: 3rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-links a h2 {
+  font-size: medium;
+}
+
+.social-links a:hover {
+  border-bottom: 2px solid red;
+}
+
+.contact-email {
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contact-email h1 {
+  font-size: 3rem;
+}
+
+.contact-email button {
+  width: 150px;
+  height: 60px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: #2BAAE2;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.contact-email button:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=Contact.css.map */
