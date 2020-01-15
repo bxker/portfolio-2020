@@ -33,7 +33,7 @@
   -webkit-box-shadow: 0px 0px 4px 0px #000000;
   box-shadow: 0px 0px 4px 0px #000000;
   border-radius: 5px;
-  margin: 20px;
+  margin: 20px 0px 30px 0px;
 }
 
 .switch-container button, .trakd-container button {
