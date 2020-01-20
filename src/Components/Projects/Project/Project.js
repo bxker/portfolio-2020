@@ -111,8 +111,8 @@ export default function Project(props) {
                 <section className="project-description">
                     <p >{projects[2].project_description}</p>
                     <div className="post-buttons">
-                       <button disabled>Live Site</button>
-                        <button disabled>GitHub</button>
+                       <button id="disabled">Live Site</button>
+                        <button id="disabled">GitHub</button>
                     </div>
                 </section>
                 </section>
