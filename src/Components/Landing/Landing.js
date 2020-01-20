@@ -1,8 +1,10 @@
 import React from 'react'
 import './styles/Landing.css'
+import Footer from '../Footer/Footer'
 
 export default function Landing() {
     return (
+        <>
         <div className="landing-main">
             <div className="landing-container">
                 <section className="landing-section-1">
@@ -11,5 +13,7 @@ export default function Landing() {
                 </section>
             </div>
         </div>
+            <Footer />
+        </>
     )
 }

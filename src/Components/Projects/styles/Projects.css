@@ -7,16 +7,19 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
   overflow: scroll;
 }
 
-.switch-container, .trakd-container {
+.switch-container, .trakd-container, .asana-clone-container {
   background: white;
-  width: 400px;
-  height: 450px;
+  width: 300px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,13 +33,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0px 0px 4px 0px #000000;
-  box-shadow: 0px 0px 4px 0px #000000;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  margin: 20px 0px 30px 0px;
+  margin: 10px 50px 30px 50px;
 }
 
-.switch-container button, .trakd-container button {
+.switch-container button, .trakd-container button, .asana-clone-container button {
   width: 90px;
   height: 30px;
   background: #2BAAE2;
@@ -47,17 +50,13 @@
   border: none;
 }
 
-.switch-container button:hover, .trakd-container button:hover {
+.switch-container button:hover, .trakd-container button:hover, .asana-clone-container button:hover {
   border: 1px solid black;
   background: white;
   color: black;
 }
 
-.switch-carousel {
-  max-width: 90%;
-}
-
-.trakd-carousel {
+.switch-carousel, .trakd-carousel, .asana-clone-carousel {
   max-width: 90%;
 }
 

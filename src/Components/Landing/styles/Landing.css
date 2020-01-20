@@ -45,8 +45,8 @@
           align-items: center;
   background: white;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 4px 0px #000000;
-  box-shadow: 0px 0px 4px 0px #000000;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .landing-section-1 p {
@@ -63,8 +63,7 @@
 }
 
 .landing-logo:hover {
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 }
 
 @media (max-width: 875px) {

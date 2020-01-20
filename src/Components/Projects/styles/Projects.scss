@@ -3,8 +3,8 @@
     height: 85vh;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    // align-items: center;
     font-family: 'Montserrat', sans-serif;
     overflow: scroll;
 }
@@ -12,16 +12,15 @@
 
 .switch-container{
     background: white;
-    width: 400px;
-    height: 450px;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    -webkit-box-shadow: 0px 0px 4px 0px #000000; 
-    box-shadow: 0px 0px 4px 0px #000000;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
     border-radius: 5px;
-    margin: 20px 0px 30px 0px;
+    margin: 10px 50px 30px 50px;
         button{
             width: 90px;
             height: 30px;
@@ -43,12 +42,20 @@
     @extend .switch-container
 }
 
+.asana-clone-container{
+    @extend .switch-container
+}
+
 .switch-carousel{
     max-width: 90%;
 }
 
 .trakd-carousel{
-    max-width: 90%;
+   @extend .switch-carousel
+}
+
+.asana-clone-carousel{
+    @extend .switch-carousel
 }
 
 .switch img{
