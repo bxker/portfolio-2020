@@ -65,11 +65,11 @@
 }
 
 .social-links h1 {
-  font-size: 3rem;
-  text-decoration: underline;
+  font-size: 2rem;
 }
 
 .social-links a {
+  border-bottom: 2px solid black;
   text-decoration: none;
   color: black;
 }
@@ -83,7 +83,7 @@
 }
 
 .contact-email {
-  height: 40%;
+  height: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,8 +97,7 @@
 }
 
 .contact-email h1 {
-  font-size: 3rem;
-  text-decoration: underline;
+  font-size: 2rem;
 }
 
 .contact-email button {
