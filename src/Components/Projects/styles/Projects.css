@@ -18,11 +18,13 @@
 
 .switch-container, .trakd-container, .asana-clone-container {
   background: white;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -40,14 +42,16 @@
 }
 
 .switch-container button, .trakd-container button, .asana-clone-container button {
-  width: 90px;
-  height: 30px;
+  width: 100px;
+  height: 40px;
   background: #2BAAE2;
   color: white;
   border-radius: 5px;
   outline: none;
   cursor: pointer;
   border: none;
+  letter-spacing: .05rem;
+  font-size: .8rem;
 }
 
 .switch-container button:hover, .trakd-container button:hover, .asana-clone-container button:hover {
