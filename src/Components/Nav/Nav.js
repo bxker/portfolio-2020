@@ -28,7 +28,7 @@ function Nav(props) {
         <div className="nav-container">
             <h1><span className="first_name">Jacob</span><span className="last_name">Baker</span></h1>
             <section>
-                <Link to="/" style={{textDecoration: 'none'}}><span id={aboutStatus}>About</span></Link>
+                <Link to="/" style={{textDecoration: 'none'}}><span id={aboutStatus}>Home</span></Link>
                 <Link to="/projects" style={{textDecoration: 'none'}}><span id={projectStatus}>Projects</span></Link>
                 <Link to="/contact" style={{textDecoration: 'none'}}><span id={contactStatus}>Contact</span></Link>
             </section>
