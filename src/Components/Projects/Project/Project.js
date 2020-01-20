@@ -94,29 +94,17 @@ export default function Project(props) {
                 <section className="project-middle-container">
                 <div id="project-images">
                     <Carousel showArrows={true}>
-                        <div className="switch">
-                            <img alt="switch-1" src={projects[0].project_image[0]} />
-                            <p className="legend">Switch - Landing</p>
+                        <div className="Asana-clone">
+                            <img alt="Asana-clone-1" src={projects[2].project_image[0]} />
+                            <p className="legend">Asana-clone - Landing</p>
                         </div>
-                        <div className="switch">
-                            <img alt="switch-2" src={projects[0].project_image[1]} />
-                            <p className="legend">Switch - Login</p>
+                        <div className="Asana-clone">
+                            <img alt="Asana-clone-2" src={projects[2].project_image[1]} />
+                            <p className="legend">Asana-clone - Login</p>
                         </div>
-                        <div className="switch">
-                            <img alt="switch-3" src={projects[0].project_image[2]} />
-                            <p className="legend">Switch - Register</p>
-                        </div>
-                        <div className="switch">
-                            <img alt="switch-4" src={projects[0].project_image[3]} />
-                            <p className="legend">Switch - Browse</p>
-                        </div>
-                        <div className="switch">
-                            <img alt="switch-5" src={projects[0].project_image[4]} />
-                            <p className="legend">Switch - Profile</p>
-                        </div>
-                        <div className="switch">
-                            <img alt="switch-6" src={projects[0].project_image[5]} />
-                            <p className="legend">Switch - Settings</p>
+                        <div className="Asana-clone">
+                            <img alt="Asana-clone-3" src={projects[2].project_image[2]} />
+                            <p className="legend">Asana-clone - Register</p>
                         </div>
                     </Carousel>
                 </div>

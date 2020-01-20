@@ -15,7 +15,7 @@ let projects = [
         project_id: 3,
         project_name: 'Asana-Clone',
         project_description: 'Technologies used: React, Node, Express, PostgreSQL, TypeScript, React Hooks.',
-        project_image: []
+        project_image: ['https://i.imgur.com/g7anTRS.png', 'https://i.imgur.com/ovUjnzo.png', 'https://i.imgur.com/tqK1nrE.png']
     }
 
 ]

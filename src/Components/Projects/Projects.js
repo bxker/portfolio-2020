@@ -74,24 +74,16 @@ export default function Projects() {
                 <div className="asana-clone-carousel">
                     <Carousel showArrows={true} showThumbs={false}>
                         <div className="Asana-Clone">
-                            <img alt="Asana-Clone-1" src={projects[1].project_image[0]} />
+                            <img alt="Asana-Clone-1" src={projects[2].project_image[0]} />
                             <p className="legend">Asana-Clone - Login</p>
                         </div>
                         <div className="Asana-Clone">
-                            <img alt="Asana-Clone-2" src={projects[1].project_image[1]} />
+                            <img alt="Asana-Clone-2" src={projects[2].project_image[1]} />
                             <p className="legend">Asana-Clone - Register</p>
                         </div>
                         <div className="Asana-Clone">
-                            <img alt="Asana-Clone-3" src={projects[1].project_image[2]} />
+                            <img alt="Asana-Clone-3" src={projects[2].project_image[2]} />
                             <p className="legend">Asana-Clone - Dashboard</p>
-                        </div>
-                        <div className="Asana-Clone">
-                            <img alt="Asana-Clone-4" src={projects[1].project_image[3]} />
-                            <p className="legend">Asana-Clone - Settings</p>
-                        </div>
-                        <div className="Asana-Clone">
-                            <img alt="Asana-Clone-5" src={projects[1].project_image[4]} />
-                            <p className="legend">Asana-Clone - About</p>
                         </div>
                     </Carousel>
                 </div>
